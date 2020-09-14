@@ -1,4 +1,4 @@
-# START #
+1. # START #
 
 conda install -c esri arcgis
 
@@ -23,7 +23,7 @@ m
 
 
 
-#OSM Runner
+2. #OSM Runner
 
 * Create a new environment with Conda
     * conda create -n osm_dash python=3.6 -y
@@ -46,3 +46,10 @@ m
 * Run 'jupyter notebook' with environment activated and navigate to this notebook on your system
 
 * Set the org_url, username, and password for the GIS variable in the first cell of this notebook
+
+
+
+3. #CREATE VIDEO#
+
+conda install -c anaconda pillow
+conda install -c conda-forge imageio
