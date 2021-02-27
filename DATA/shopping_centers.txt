@@ -1,0 +1,8 @@
+id;name;addr
+1;Itis;Itäkatu 1-7, 00930 Helsinki, Finland
+2;Forum;Mannerheimintie 14–20, 00100 Helsinki, Finland
+3;Iso-omena;Piispansilta 11, 02230 Espoo, Finland
+4;Sello;Leppävaarankatu 3-9, 02600 Espoo, Finland
+5;Jumbo;Vantaanportinkatu 3, 01510 Vantaa, Finland
+6;REDI;Hermannin rantatie 5, 00580 Helsinki, Finland
+7;Mall of Tripla;Pasilan Tornikuja, 00240 Helsinki, Finland
