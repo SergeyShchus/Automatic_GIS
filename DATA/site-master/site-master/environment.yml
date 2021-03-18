@@ -1,0 +1,15 @@
+name: autogis
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.8
+  - geopandas
+  - geopy
+  - geojson
+  - bokeh
+  - matplotlib
+  - folium
+  - mplleaflet
+  - osmnx

@@ -1,0 +1,10 @@
+docs
+build
+.idea
+.ipynb_checkpoints
+.nbgrader.log
+.DS_Store
+Senaatintori*
+Results/
+Europe_borders_epsg*
+source/notebooks/L2/L2_data/*
