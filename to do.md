@@ -1,4 +1,4 @@
-https://autogis-site.readthedocs.io/en/latest/notebooks/L4/geometric-operations.html  :heavy_check_mark:
+https://autogis-site.readthedocs.io/en/latest/notebooks/L4/geometric-operations.html  ✔️
 
 
 https://plotly.com/python/mapbox-county-choropleth/
