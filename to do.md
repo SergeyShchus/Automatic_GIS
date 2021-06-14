@@ -1,8 +1,8 @@
 https://autogis-site.readthedocs.io/en/latest/notebooks/L4/geometric-operations.html  ✔️
 
 
-https://plotly.com/python/mapbox-county-choropleth/
-https://nbviewer.jupyter.org/gist/jtbaker/57a37a14b90feeab7c67a687c398142c?flush_cache=true
+https://plotly.com/python/mapbox-county-choropleth/ ✔️
+https://nbviewer.jupyter.org/gist/jtbaker/57a37a14b90feeab7c67a687c398142c?flush_cache=true ✔️
 https://autogis-site.readthedocs.io/en/latest/lessons/L5/overview.html
 http://leaflet-extras.github.io/leaflet-providers/preview/
 
