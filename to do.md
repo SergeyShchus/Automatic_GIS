@@ -3,6 +3,22 @@ https://autogis-site.readthedocs.io/en/latest/notebooks/L4/geometric-operations.
 
 https://plotly.com/python/mapbox-county-choropleth/ ✔️
 https://nbviewer.jupyter.org/gist/jtbaker/57a37a14b90feeab7c67a687c398142c?flush_cache=true ✔️
+
+https://medium.com/spatial-data-science/pearl-land-cover-mapping-with-ai-in-your-browser-89a268208db9
+https://medium.com/spatial-data-science/leafmap-a-new-python-package-for-geospatial-data-science-353735b3f889
+https://medium.com/spatial-data-science/cloud-optimized-geotiff-cog-with-python-8e0a22b884c5
+
+
+https://betterprogramming.pub/how-to-easily-scrape-multiple-pages-of-a-website-using-python-73e85bd06f8c
+https://medium.com/swlh/web-scraping-basics-scraping-a-betting-site-in-10-minutes-8e0529509848
+https://github.com/ifrankandrade/data-collection
+https://www.youtube.com/watch?v=PPcgtx0sI2E
+https://www.youtube.com/watch?v=2vcp0fKq3aw
+https://medium.com/swlh/web-scraping-basics-scraping-a-betting-site-in-10-minutes-8e0529509848
+
+
+
+
 https://autogis-site.readthedocs.io/en/latest/lessons/L5/overview.html
 http://leaflet-extras.github.io/leaflet-providers/preview/
 
