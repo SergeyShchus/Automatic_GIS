@@ -4,7 +4,7 @@ https://autogis-site.readthedocs.io/en/latest/notebooks/L4/geometric-operations.
 https://plotly.com/python/mapbox-county-choropleth/ ✔️
 https://nbviewer.jupyter.org/gist/jtbaker/57a37a14b90feeab7c67a687c398142c?flush_cache=true ✔️
 
-https://medium.com/spatial-data-science/pearl-land-cover-mapping-with-ai-in-your-browser-89a268208db9
+https://medium.com/spatial-data-science/pearl-land-cover-mapping-with-ai-in-your-browser-89a268208db9 +
 https://medium.com/spatial-data-science/leafmap-a-new-python-package-for-geospatial-data-science-353735b3f889
 https://medium.com/spatial-data-science/cloud-optimized-geotiff-cog-with-python-8e0a22b884c5
 
