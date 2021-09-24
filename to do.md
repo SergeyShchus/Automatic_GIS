@@ -7,6 +7,8 @@ https://nbviewer.jupyter.org/gist/jtbaker/57a37a14b90feeab7c67a687c398142c?flush
 https://medium.com/spatial-data-science/pearl-land-cover-mapping-with-ai-in-your-browser-89a268208db9 ✔️
 https://medium.com/spatial-data-science/leafmap-a-new-python-package-for-geospatial-data-science-353735b3f889✔️
 
+https://habr.com/ru/company/skillfactory/blog/575092/?fbclid=IwAR3--EEMKcGxtEnfvNAQTsYOrDQS5DpE4l7NUlcfBUhWQoqqoJzVTemg9nw
+
 https://towardsdatascience.com/get-started-with-python-e50dc8c96589
 
 https://medium.com/spatial-data-science/cloud-optimized-geotiff-cog-with-python-8e0a22b884c5
