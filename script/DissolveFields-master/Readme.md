@@ -2,4 +2,4 @@
 
 ![Dissolve fields](https://github.com/SergeyShchus/Automatic_GIS/blob/master/script/DissolveFields-master/image/DissolveFields.gif?raw=true =250x250)
 
-<img src="https://github.com/SergeyShchus/Automatic_GIS/blob/master/script/DissolveFields-master/image/DissolveFields.gif?raw=true" width="200" height="400" />
+<img src="https://github.com/SergeyShchus/Automatic_GIS/blob/master/script/DissolveFields-master/image/DissolveFields.gif?raw=true" width="400" height="400" />
