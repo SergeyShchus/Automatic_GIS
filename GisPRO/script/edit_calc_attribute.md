@@ -1,125 +1,122 @@
 -- Введіть перший символ рядка з великої літери в полі CITY_NAME .
 
-!CITY_NAME!.capitalize()
+   !CITY_NAME!.capitalize()
 
 -- Видаліть будь-які пробіли з кінця рядка в полі CITY_NAME .
 
-!CITY_NAME!.rstrip()
+   !CITY_NAME!.rstrip()
 
 -- Замініть будь-які випадки "california" на "california", знайдені в полі STATE_NAME .
 
-!STATE_NAME!.replace("california", "California")
+   !STATE_NAME!.replace("california", "California")
 
 -- Об’єднайте поля A і B, розділені двокрапкою.
 
-"{}:{}".format(!FieldA!, !FieldB!)
+   "{}:{}".format(!FieldA!, !FieldB!)
 
 -- Округліть значення поля до двох знаків після коми.
 
-Expression:
-round(!area!, 2)
-
-Parser:
-Python
+   Expression:
+   round(!area!, 2)
+   
+   Parser:
+   Python
 
 
 -- Використовуйте математичний модуль, щоб допомогти перетворити метри у фути. Перетворення зводиться до степеня 2 і множиться на площу.
 
-Parser:
-Python
+   Parser:
+   Python
 
-Expression:
-MetersToFeet((float(!shape.area!)))
-
-Code Block:
-def MetersToFeet(area):
-    return math.pow(3.2808, 2) * area
+   Expression:
+   MetersToFeet((float(!shape.area!)))
+   
+   Code Block:
+   def MetersToFeet(area):
+       return math.pow(3.2808, 2) * area
 	
 	
 -- Округліть значення поля до двох знаків після коми.
 
-Expression:
-round(!area!, 2)
-
-Parser:
-Python
-
+   Expression:
+   round(!area!, 2)
+   
+   Parser:
+   Python
+   
 -- Розранук площі з округленням
 
-round(AreaGeodetic($feature, 'hectares'), 2)
+   round(AreaGeodetic($feature, 'hectares'), 2)
 
 -- перетворити метри у фути. Перетворення зводиться до степеня 2 і множиться на площу.
 
-Parser:
-Python
-
-Expression:
-MetersToFeet((float(!shape.area!)))
-
-Code Block:
-def MetersToFeet(area):
-    return math.pow(3.2808, 2) * area
+   Parser:
+   Python
+   
+   Expression:
+   MetersToFeet((float(!shape.area!)))
+   
+   Code Block:
+  def MetersToFeet(area):
+      return math.pow(3.2808, 2) * area
 	
 	
 -- Класифікуйте на основі значень полів.
 
-'''
-Parser:
-Python
-
-Expression:
-Reclass(!WELL_YIELD!)
-
-Code Block:
-def Reclass(WellYield):
-    if (WellYield >= 0 and WellYield <= 10):
-        return 1
-    elif (WellYield > 10 and WellYield <= 20):
-        return 2
-    elif (WellYield > 20 and WellYield <= 30):
-        return 3
-    elif (WellYield > 30):
-        return 4
-'''		
+   Parser:
+   Python
+   
+   Expression:
+   Reclass(!WELL_YIELD!)
+   
+   Code Block:
+   def Reclass(WellYield):
+       if (WellYield >= 0 and WellYield <= 10):
+           return 1
+       elif (WellYield > 10 and WellYield <= 20):
+           return 2
+       elif (WellYield > 20 and WellYield <= 30):
+           return 3
+       elif (WellYield > 30):
+           return 4	
 
 -- Класифікація по значенню площі поля:
-'''
-Expression:
-Reclass(!Area_fact!)
 
-Code Block:
-def Reclass(Area_fact):
-    if (Area_fact >= 0 and Area_fact <= 10):
-        return 1
-    elif (Area_fact > 10 and Area_fact <= 20):
-        return 2
-    elif (Area_fact > 20 and Area_fact <= 30):
-        return 3
-    elif (Area_fact > 30):
-        return 4
-		
-'''
+   Expression:
+   Reclass(!Area_fact!)
+   
+   Code Block:
+   def Reclass(Area_fact):
+       if (Area_fact >= 0 and Area_fact <= 10):
+           return 1
+       elif (Area_fact > 10 and Area_fact <= 20):
+           return 2
+       elif (Area_fact > 20 and Area_fact <= 30):
+           return 3
+       elif (Area_fact > 30):
+           return 4
+
 
 -- Умовно виконує групу операторів залежно від значення виразу.
 
-Parser:
-VB Script
-
-Expression:
-density
-
-Code Block:
-Dim density
-If [POP90_SQMI] < 100 Then
-density = "low"
-
-elseif [POP90_SQMI] < 300 Then
-density = "medium"
-
-else
-density = "high"
-end if
-
+   Parser:
+   VB Script
+   
+   Expression:
+   density
+   
+   Code Block:
+   Dim density
+   If [POP90_SQMI] < 100 Then
+   density = "low"
+   
+   elseif [POP90_SQMI] < 300 Then
+   density = "medium"
+   
+   else
+   density = "high"
+   end if
+   
 -- Обчисліть площу об’єкта.
 
 Parser:
