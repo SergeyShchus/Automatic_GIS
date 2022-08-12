@@ -1,0 +1,10 @@
+conda create -n r-kernel
+conda activate r-kernel
+
+conda install r-recommended r-irkernel
+conda install Jupyter
+
+R -e 'IRkernel::installspec()'
+
+
+jupyter-notebook
